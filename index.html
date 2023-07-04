@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">  
+    <nav>
+        <ul>
+            <li><a href="#Home">Accueil</a></li>
+            <li><a href="#apropos">A propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+     <!--Fin Navbar -->
+</div>
+<!--Vidéo en 3d-->
+    <div class="videohome">
+    <video id="video" src="video/0026_8.mp4" autoplay loop muted></video>
+    <section id="apropos"></section>
+</div>
+
+<main>  
+    <!--Div liée à l'encre àpropos de la nav-->
+    <div class="apropos">
+        
+    <h2>NOTRE HISTOIRE</h2>
+    <p>Paco est typographie originale fondée en avril 2023 dans le cadre 
+        d’une demande client, exerçant  dans le tourisme de haute montagne.
+        La demande de ce client était donc de créer une typographie web,
+        qui devait mettre en avant le domaine “montagnard” avec des sommets. 
+        Aujourd’hui elle est donc commercialisée  pour permettre 
+        aux potentiels clients de mener à bien leurs futurs projets.
+        Nous accompagnons chacun de nos clients dans la réussite de leurs projets.
+        Chaque client est unique, nous le sommes aussi, pourquoi pas votre typographie ?</p>
+
+       
+    </div>
+
+    <div class="troisd">
+        <!--Élement 3d en GLB-->
+        <model-viewer src="img/typo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" class="model-viewer">             </model-viewer>
+    </div>
+   
+    <div class="alphabet">
+        <img src="img/Fichier711.png" alt="">
+       
+        
+    </div>
+    
+    <div class="encre">
+        <!--Texte en opacité 0 pour que l'encre soit bien positionnée-->
+    <p>texte qui ne se verra pas pour l'encre</p>
+    <section id="services"></section>
+    </div>
+
+    <div class="services">
+        <!--Div liée à l'encre services de la nav-->
+        <h2>NOS SERVICES</h2>
+        <div class="real">
+        <div class="web">
+            <!--Réalisation Web des services-->
+        <img src="img/Desktop1449.png" alt="">
+        <h3>WEB</h3>
+        </div> 
+        
+        
+        <div class="print">
+            <!--Réalisation Print des services-->
+        <img src="img/imgmcr.png" alt="">
+        <h3>PRINT</h3>
+        </div>
+      
+        <div class="motion">
+            <!--Réalisation Motion des services-->
+        <img src="img/imgmcrl.png" alt="">
+        <h3>MOTION</h3>
+        </div>
+      </div>
+      
+
+    <div class="domaine">
+        
+        <h2>VOTRE DOMAINE</h2>
+        <p>Libérez votre esprit aventureux avec notre typo montagnarde. Avec sa structure audacieuse, cette police est conçue pour inspirer l'exploration des sommets les plus élevés. Chaque lettre est comme une ascension épique, vous propulsant vers de nouveaux sommets de créativité. Que vous soyez un designer graphique à la recherche d'une police unique pour vos projets ou un amoureux de la nature passionné par la montagne, notre typo montagnarde est la réponse à vos besoins. Embrassez l'esprit de l'aventure avec notre police montagnarde dès aujourd'hui !
+        </p>
+    </div>
+
+    <div class="domain">
+        <!--Image du domaine d'activité-->
+        <img src="img/image82.png" alt="">
+    </div>
+
+    <div>
+        <!--input pour insérer le texte pour tester la typo-->
+        <input class="typo" type="text" value="ENTREZ VOTRE TEXTE">
+    </div>
+
+    <div class="contact">
+        <section id="contact"></section>
+    <h2>ALORS ON VOUS ATTEND</h2>
+    <h3>prenez contact avec la clé de votre succès</h3>
+    <button>Nous contacter</button>
+    </div>
+
+
+    <footer>
+        <ul>
+            <li class="politique"> 
+                <br>
+                <a href="politique">politique de confidentialité</a>
+                <br>
+                <a href="">mentions légales</a>
+            </li>
+        </ul>
+    </footer>
+
+    
+
+    
+
+</main>
+
+</body>
+</html>
